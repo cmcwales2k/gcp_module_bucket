@@ -1,6 +1,6 @@
 locals {
   name = "craigs-bucket2"
-  bucket = "${var.project}-${local-name}"
+  bucket = "${var.project}-${local.name}"
 }
 
 resource "google_storage_bucket" "bucket" {

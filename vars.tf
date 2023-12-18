@@ -1,7 +1,5 @@
 variable "project" {}
 
-variable "credential_file" {}
-
 variable "region" {
   default = "europe-west2"
 }
